@@ -84,7 +84,54 @@ npm run build
 ```
 
 ## <a name="chatbot-setup">3. Cấu hình chatbot</a>
-<p align="center">ĐANG CẬP NHẬT</p>
+
+### Clone project:
+```
+git clone https://github.com/LichND/NLP.git
+```
+### Cài đặt package:
+```
+npm install
+```
+
+### Thiết lập đầu vào
+Tại thư mục input có 2 folder (topic và type) và file mix kèm, chi tiết:
+- Folder topic:
+  * Tên file không được chứa extensions
+  * Tên file dùng làm tag name
+  * Nội dung file gồm các keyword liên quan đến tag name, phân biệt nhau bởi ký tự endline (```\n``` hoặc ```\r\n```)
+- Folder type
+  * Tên file không được chứa extensions
+  * Tên file dùng làm tag name
+  * Nội dung file gồm các mẫu câu liên quan đến tag name, phân biệt nhau bởi ký tự endline (```\n``` hoặc ```\r\n```)
+  * Nếu mẫu câu có liên quan đến một topic nào đó, thay phần liên quan bằng kí tự ```%s```
+- File mix
+  * Dùng để thay thế và trộn các mẫu câu có dùng topic (có chứa kí tự ```%s```)
+  * Nội dung file là &lt;tên tag 1&gt;+&lt;tên tag 2&gt;+..., giữa các tag là dấu ```+```, phân biệt nhau bởi ký tự endline (```\n``` hoặc ```\r\n```)
+
+### Make data
+```
+npm run data
+```
+
+### Train model
+```
+npm run train
+```
+
+### Test lại sau train (tùy chọn)
+```
+npm run test
+```
+hoặc
+```
+npm run test <nội dung test>
+```
+
+# Áp dụng train model mới
+Copy toàn bộ các file trong thư mục ```./out``` của train model sang thư mục ```./src/lib/nlp/out``` của backend
+
+Chú ý: file ```tag.ts``` sẽ cho output là các string tag theo mặc định input, nếu có sửa sang custom tag thì khi copy nhớ sửa lại theo custom tag cho đúng.
 
 # <a name="usage-guide">Hướng dẫn sử dụng ứng dụng</a>
 
@@ -101,7 +148,12 @@ npm run build
 <p align="center">ĐANG CẬP NHẬT</p>
 
 ## <a name="chatbot-usage-guide">3. Hướng dẫn sử dụng Chatbot</a>
-<p align="center">ĐANG CẬP NHẬT</p>
+
+### Bước 1: Truy cập [fanpage](https://www.facebook.com/EasyOOP/)
+### Bước 2: Chọn Gửi tin nhắn
+![](https://i.im.ge/2021/07/14/2rWJY.png)
+### Bước 3: Bắt đầu tương tác với chatbot thôi!
+![](https://i.im.ge/2021/07/14/2rffC.png)
 
 # <a name="contributors">Thành viên đóng góp</a>
 
