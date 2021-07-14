@@ -39,7 +39,7 @@ npm install
 ```
 
 ### Cấu hình biến môi trường
-Tạo **2** file biến môi trường ```.env.development.local``` (dành cho development) và ```.env.production.local```(dành cho production). Mẫu file environmnent co thể xem tại ```env.sample```.
+Tạo **2** file biến môi trường ```.env.development.local``` (dành cho development) và ```.env.production.local```(dành cho production). Mẫu file environmnent co thể xem tại [```frontend.env.sample```](https://github.com/minhnguyenduy99/OOPForLearnee/blob/main/environments/frontend.env.sample).
 
 Bạn có thể tạo các file biến môi trường với các mode khác nhau.  Quy định đặt tên có thể xem tại: https://cli.vuejs.org/guide/mode-and-env.html
 
@@ -64,7 +64,7 @@ git clone https://github.com/minhnguyenduy99/EasyOOP_Backend.git
 npm install
 ```
 ### Cấu hình biến môi trường
-- Tạo file biến môi trường  Mẫu file environmnent có thể xem tại **```env.sample```**.
+- Tạo file biến môi trường. Mẫu file environmnent có thể xem tại [```backend.env.sample```](https://github.com/minhnguyenduy99/OOPForLearnee/blob/main/environments/backend.env.sample).
 - Cập nhật tên file môi trường vao file ```app.module.ts``` như sau:
 ![](https://i.im.ge/2021/07/14/2lvCS.png)
 
