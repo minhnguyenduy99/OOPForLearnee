@@ -4,3 +4,6 @@
 [submodule "EasyOOP_Backend"]
 	path = EasyOOP_Backend
 	url = https://github.com/minhnguyenduy99/EasyOOP_Backend.git
+[submodule "NLP"]
+	path = NLP
+	url = https://github.com/LichND/NLP.git
