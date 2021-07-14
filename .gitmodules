@@ -1,0 +1,6 @@
+[submodule "EasyOOP-frontend"]
+	path = EasyOOP-frontend
+	url = https://github.com/minhnguyenduy99/EasyOOP-frontend.git
+[submodule "EasyOOP_Backend"]
+	path = EasyOOP_Backend
+	url = https://github.com/minhnguyenduy99/EasyOOP_Backend.git
