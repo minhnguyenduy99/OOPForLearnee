@@ -151,9 +151,9 @@ Chú ý: file ```tag.ts``` sẽ cho output là các string tag theo mặc địn
 
 ### Bước 1: Truy cập [fanpage](https://www.facebook.com/EasyOOP/)
 ### Bước 2: Chọn Gửi tin nhắn
-![](https://i.im.ge/2021/07/14/2rWJY.png)
+![](https://i.im.ge/2021/07/14/2rnIf.png)
 ### Bước 3: Bắt đầu tương tác với chatbot thôi!
-![](https://i.im.ge/2021/07/14/2rffC.png)
+![](https://i.im.ge/2021/07/14/2r4xm.png)
 
 # <a name="contributors">Thành viên đóng góp</a>
 
