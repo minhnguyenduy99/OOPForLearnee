@@ -5,7 +5,7 @@
 	<a href="https://oop-learnee.herokuapp.com/">OOPForLearnee</a>
 	</p>
 </p>
-<h1 align="center">Ứng dụng Web tích hợp với Messenger Chatbothỗ trợ môn học OOP
+<h1 align="center">Ứng dụng Web tích hợp với Messenger Chatbot hỗ trợ môn học OOP
 </h1>
 
 # Nội dung chính
