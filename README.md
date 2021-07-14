@@ -8,14 +8,26 @@
 <h1 align="center">Ứng dụng Web tích hợp với Messenger Chatbothỗ trợ môn học OOP
 </h1>
 
+# Nội dung chính
+- [Mô tả](#description)
+- [Hướng dẫn cài đặt](#setup-guide)
+  * [1. Cài đặt và cấu hình Frontend](#frontend-setup)
+  * [2. Cấu hình và cài đặt Backend](#backend-setup)
+  * [3. Cấu hình chatbot](#chatbot-setup)
+- [Hướng dẫn sử dụng ứng dụng](#usage-guide)
+  * [1. Các chức năng cơ bản của ứng dụng Web](#web-features)
+  * [2. Các chức năng quản lí](#web-management-features)
+  * [3. Hướng dẫn sử dụng Chatbot](#chatbot-usage-guide)
+- [Thành viên đóng góp](#contributors)
 
-# Mô tả
+
+# <a name="description">Mô tả</a>
 
 Tại **OOPForLearnee** bạn có thể học những bài học OOP từ cơ bản đến nâng cao và có lộ trình được sắp xếp dựa trên chủ đề. Ngoài ra người dùng có thể tương tác với chatbot để được hỗ trợ và cung cấp các thông tin liên quan đến các khái niệm OOP, thông tin bài học, ...
 
-# Hướng dẫn cài đặt (dành cho Developer)
+# <a name="setup-guide">Hướng dẫn cài đặt</a>
 
-## 1. Cài đặt và cấu hình Frontend
+## <a name="frontend-setup">1. Cài đặt và cấu hình Frontend</a>
 
 ### Clone project:
 ```
@@ -42,13 +54,41 @@ Server mặc định sẽ chạy tại http://localhost:8080
 npm run build
 ```
 
-## 2. Cấu hình và cài đặt Backend
+## <a name="backend-setup">2. Cấu hình và cài đặt Backend</a>
+### Clone project:
+```
+git clone https://github.com/minhnguyenduy99/EasyOOP_Backend.git
+```
+### Cài đặt package:
+```
+npm install
+```
+### Cấu hình biến môi trường
+- Tạo file biến môi trường  Mẫu file environmnent có thể xem tại **```env.sample```**.
+- Cập nhật tên file môi trường vao file ```app.module.ts``` như sau:
+![](https://i.im.ge/2021/07/14/2lvCS.png)
 
-## 3. Cấu hình chatbot
+### Khởi động server:
+Chạy với chế độ **reload**
+```
+npm run start:dev
+```
+Hoặc chế độ bình thường
+```
+npm run start
+```
 
-# Hướng dẫn sử dụng ứng dụng
+### Build production
+```
+npm run build
+```
 
-## 1. Các chức năng cơ bản của ứng dụng Web
+## <a name="chatbot-setup">3. Cấu hình chatbot</a>
+<p align="center">ĐANG CẬP NHẬT</p>
+
+# <a name="usage-guide">Hướng dẫn sử dụng ứng dụng</a>
+
+## <a name="web-features">1. Các chức năng cơ bản của ứng dụng Web</a>
 
 ### [Trang chủ](https://i.im.ge/2021/07/14/2lcAW.png)
 ### [Tìm kiếm](https://i.im.ge/2021/07/14/2lgp0.png)
@@ -57,13 +97,13 @@ npm run build
 ### [Thông tin cá nhân](https://i.im.ge/2021/07/14/2lxbf.png)
 ### [Kết quả bài test](https://i.im.ge/2021/07/14/2lEi1.png)
 
-## 2. Các chức năng quản lí
+## <a name="web-management-features">2. Các chức năng quản lí</a>
 <p align="center">ĐANG CẬP NHẬT</p>
 
-## 3. Hướng dẫn sử dụng Chatbot
+## <a name="chatbot-usage-guide">3. Hướng dẫn sử dụng Chatbot</a>
 <p align="center">ĐANG CẬP NHẬT</p>
 
-# Thành viên đóng góp
+# <a name="contributors">Thành viên đóng góp</a>
 
 - Nguyễn Duy Minh - [minhnguyenduy99](https://github.com/minhnguyenduy99)
 - Nguyễn Du Lịch - [LichND](https://github.com/LichND)
