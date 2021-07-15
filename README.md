@@ -1,10 +1,16 @@
 <p align="center">
-	<img src="https://res.cloudinary.com/dml8e1w0z/image/upload/v1625188482/oop-learning-helper/color_tnvl21.png" width="100px" height="auto" />
+	<img src="https://res.cloudinary.com/dml8e1w0z/image/upload/v1625188482/oop-learning-helper/color_tnvl21.png" width="100px" height="auto" /
+</p>
+<div>
 	<p align="center">
 	<strong>Website:</strong>
 	<a href="https://oop-learnee.herokuapp.com/">OOPForLearnee</a>
 	</p>
-</p>
+	<p align="center">
+	<strong>Facebook page:</strong>
+	<a href="https://www.facebook.com/EasyOOP/">OOP For Learnee</a>
+	</p>
+</div>
 <h1 align="center">Ứng dụng Web tích hợp với Messenger Chatbot hỗ trợ môn học OOP
 </h1>
 
@@ -145,7 +151,20 @@ Chú ý: file ```tag.ts``` sẽ cho output là các string tag theo mặc địn
 ### [Kết quả bài test](https://i.im.ge/2021/07/14/2lEi1.png)
 
 ## <a name="web-management-features">2. Các chức năng quản lí</a>
-<p align="center">ĐANG CẬP NHẬT</p>
+### Dành cho tác giả
+- [Tạo bài viết mới](https://i.im.ge/2021/07/15/2iFKP.png)
+- [Danh sách bài viết](https://i.im.ge/2021/07/15/2iMGY.png)
+- [Quản lí bài viết chờ duyệt](https://i.im.ge/2021/07/15/2iT7D.png)
+- [Danh sách bài test](https://i.im.ge/2021/07/15/2iXpC.png)
+- [Cập nhật bài test](https://i.im.ge/2021/07/15/2ioA4.png)
+- [Quản lí câu hỏi](https://i.im.ge/2021/07/15/2hGih.png)
+
+### Dành cho quản lí
+
+- [Duyệt bài viết](https://i.im.ge/2021/07/15/2hecM.png)
+- [Danh sách tác giả](https://i.im.ge/2021/07/15/2ir2q.png)
+- [Quản lí nhãn dán](https://i.im.ge/2021/07/15/2iuwp.png)
+- [Quản lí câu hỏi](https://i.im.ge/2021/07/15/2hGih.png)
 
 ## <a name="chatbot-usage-guide">3. Hướng dẫn sử dụng Chatbot</a>
 
